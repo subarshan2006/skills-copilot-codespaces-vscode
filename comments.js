@@ -1,4 +1,4 @@
-// create web server
+// Create web server
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -11,4 +11,4 @@ app.get('/comments', (req, res) => {
 // start the server
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
-}); 
+});
